@@ -7,10 +7,10 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from groq import Groq
 
 # Initialize the Groq client
-client = Groq(api_key='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')
+client = Groq(api_key='')
 
 # Configure Google Generative AI with your API key (for embeddings)
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA0Y1e_XioizI7JqMfSdtSIlqAsVB1Rjk0"  # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = ""  # Replace with your actual API key
 
 # Function to extract text from a CSV file
 def get_csv_content(file):
